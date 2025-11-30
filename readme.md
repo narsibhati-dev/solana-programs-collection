@@ -125,3 +125,7 @@ The `misc` directory contains utility programs and examples:
 - Build NFTs with `anchor-nft-metaplex` and `anchor-p-nft`
 - Explore bonding curves with `anchor-bonding-curve`
 - Create games with `anchor-tic-tac-toe`
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
