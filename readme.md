@@ -2,14 +2,45 @@
 
 A comprehensive collection of Solana programs demonstrating various concepts and patterns.
 
-## Overview
+## Project Highlights
 
-This collection includes:
+**Status:** ✓ Complete | ◐ In Progress | ✗ Has Issues | - Not Available
 
-- **14 Anchor Programs** - Programs built with the Anchor framework
-- **8 Native Programs** - Programs written in native Rust
-- **5 Pinocchio Programs** - Programs using the Pinocchio framework
-- **4 Miscellaneous Utilities** - Helper tools and examples
+| #   | Program       | Difficulty   | Description                     | Features                    | Native | Anchor |
+| --- | ------------- | ------------ | ------------------------------- | --------------------------- | ------ | ------ |
+| 1   | Hello World   | Beginner     | Basic program structure         | `Hello World`               | -      | -      |
+| 2   | Counter App   | Beginner     | Simple state management         | `PDA`                       | -      | -      |
+| 3   | Token Mint    | Beginner     | Simple Token Mint               | `Token` `Mint`              | -      | -      |
+| 4   | PDA Demo      | Intermediate | Program Derived Addresses       | `PDA` `CRUD`                | -      | -      |
+| 5   | Sol Vault     | Intermediate | Deposit and withdraw Sol        | `Deposit` `Withdraw` `PDA`  | -      | -      |
+| 6   | CPI           | Intermediate | Cross-Program Invocation        | `CPI` `Transfers`           | -      | -      |
+| 7   | Escrow        | Advanced     | Secure token swaps              | `Lock` `Release` `Cancel`   | -      | -      |
+| 8   | Multi Sign    | Advanced     | Signing tx multiple times       | `Signing` `Fullstack`       | -      | -      |
+| 9   | Lending       | Advanced     | Lend token/assets               | `Tokens` `Locking` `Lend`   | -      | -      |
+| 10  | Staking       | Advanced     | Stake assets                    | `Tokens` `Stake` `Reward`   | -      | -      |
+| 11  | NFT Minting   | Advanced     | Create & manage NFT collections | `Metadata` `Metaplex` `CPI` | -      | -      |
+| 12  | Bonding Curve | Advanced     | Simple Bonding Curve            | `Bonding Curve` `Trade`     | -      | -      |
+| 13  | Tic Tac Toe   | Advanced     | Game logic on-chain             | `PDA` `Mini Game`           | -      | -      |
+
+<!-- ## Native Programs
+
+| Program Name            | Description                             |
+| ----------------------- | --------------------------------------- |
+| `native-account-checks` | Account validation and checks           |
+| `native-account-data`   | Account data manipulation               |
+| `native-counter`        | Counter program in native Rust          |
+| `native-cpi-basic`      | Basic Cross-Program Invocation examples |
+| `native-create-token`   | Token creation program                  |
+| `native-escrow`         | Escrow implementation in native Rust    |
+| `native-pda`            | Program Derived Address examples        |
+| `native-pda-crud`       | PDA CRUD operations in native Rust      |
+
+### Native Program Features
+
+- ✅ Low-level account management
+- ✅ Native Rust implementations
+- ✅ Token creation and management
+- ✅ PDA operations without framework abstractions
 
 ## Anchor Programs
 
@@ -36,75 +67,14 @@ This collection includes:
 - ✅ Program Derived Address (PDA) patterns
 - ✅ NFT and token management
 - ✅ Escrow and vault implementations
-- ✅ Game development examples
+- ✅ Game development examples -->
 
-## Native Programs
-
-| Program Name            | Description                             |
-| ----------------------- | --------------------------------------- |
-| `native-account-checks` | Account validation and checks           |
-| `native-account-data`   | Account data manipulation               |
-| `native-counter`        | Counter program in native Rust          |
-| `native-cpi-basic`      | Basic Cross-Program Invocation examples |
-| `native-create-token`   | Token creation program                  |
-| `native-escrow`         | Escrow implementation in native Rust    |
-| `native-pda`            | Program Derived Address examples        |
-| `native-pda-crud`       | PDA CRUD operations in native Rust      |
-
-### Native Program Features
-
-- ✅ Low-level account management
-- ✅ Native Rust implementations
-- ✅ Token creation and management
-- ✅ PDA operations without framework abstractions
-
-## Pinocchio Programs
-
-| Program Name                | Description                          |
-| --------------------------- | ------------------------------------ |
-| `pinocchio-blueshift_vault` | Blueshift vault using Pinocchio      |
-| `pinocchio-counterapp`      | Counter application with Pinocchio   |
-| `pinocchio-escrow`          | Escrow program using Pinocchio       |
-| `pinocchio-hello-world`     | Hello World with Pinocchio framework |
-| `pinocchio-vault`           | Vault program using Pinocchio        |
-
-### Pinocchio Program Features
-
-- ✅ Pinocchio framework examples
-- ✅ Vault and escrow patterns
-- ✅ Counter applications
-
-## Miscellaneous
-
-The `misc` directory contains utility programs and examples:
-
-| Directory        | Description                            |
-| ---------------- | -------------------------------------- |
-| `accounts`       | Account-related utilities and examples |
-| `airdrop`        | Airdrop functionality                  |
-| `pinocchio-seri` | Pinocchio serialization utilities      |
-| `serialization`  | Serialization examples and utilities   |
-
-### Use Cases
-
-- Account management utilities
-- Token airdrop functionality
-- Serialization helpers
-
-## Other Files
-
-| File              | Description                |
-| ----------------- | -------------------------- |
-| `banner.png`      | Project banner image       |
-| `CONTRIBUTING.md` | Contribution guidelines    |
-| `README.md`       | Main project documentation |
-
-## Quick Start
+<!-- ## Quick Start
 
 1. **Choose a program** from the tables above based on what you want to learn
 2. **Navigate to the program directory**
 3. **Read the program's README** for specific setup instructions
-4. **Build and deploy** using the appropriate framework (Anchor, Native, or Pinocchio)
+4. **Build and deploy** using the appropriate framework (Anchor, Native)
 
 ## Learning Path
 
@@ -124,7 +94,7 @@ The `misc` directory contains utility programs and examples:
 
 - Build NFTs with `anchor-nft-metaplex` and `anchor-p-nft`
 - Explore bonding curves with `anchor-bonding-curve`
-- Create games with `anchor-tic-tac-toe`
+- Create games with `anchor-tic-tac-toe` -->
 
 ## License
 
